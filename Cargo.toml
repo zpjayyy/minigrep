@@ -1,7 +1,15 @@
 [package]
 name = "minigrep"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
+description = "jay demo for a mini grep"
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level = 3
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
